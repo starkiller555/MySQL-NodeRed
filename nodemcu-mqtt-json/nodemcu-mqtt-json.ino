@@ -17,12 +17,12 @@
 #include <PubSubClient.h> //Biblioteca para conexion MQTT
 
 //Datos de WiFi
-const char* ssid = "nombre-ssid";  // Aquí debes poner el nombre de tu red
-const char* password = "contraseña";  // Aquí debes poner la contraseña de tu red
+const char* ssid = "D-Link_DAP-1360";  // Aquí debes poner el nombre de tu red
+const char* password = "12345678Fluidos ";  // Aquí debes poner la contraseña de tu red
 
 //Datos del broker MQTT
-const char* mqtt_server = "192.168.1.1"; // Si estas en una red local, coloca la IP asignada, en caso contrario, coloca la IP publica
-IPAddress server(192,168,1,1);
+const char* mqtt_server = "192.168.1.75"; // Si estas en una red local, coloca la IP asignada, en caso contrario, coloca la IP publica
+IPAddress server(192,168,1,75);
 
 // Objeros
 WiFiClient espClient; // Este objeto maneja los datos de conexion WiFi
